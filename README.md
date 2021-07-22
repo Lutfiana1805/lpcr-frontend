@@ -5,3 +5,6 @@ Sebagai bagian dari tugas akhir maka di buatlah Aplikasi LPCR dalam hal ini Perk
 
 Secara keseluruhan Aplikasi LPCR Muhammadiyah ini terdiri dari tiga bagian, yaitu:
 1. Backend atau server Aplikasi ( [lpcr-backend](https://github.com/firmantya98/lpcr-backend) ), yang di kerjakan oleh sdr. [Firmantya Safri Wijaya](https://github.com/firmantya98).
+2. Frontend dashboard Administrator (repositori ini).
+3. Aplikasi mobile ( [lpcr_mobile](https://github.com/Dens02/lpcr_mobile) ), yang di kerjakan oleh sdr. [Denny Alfandy](https://github.com/Dens02).
+
