@@ -1,0 +1,280 @@
+@charset "utf-8";
+
+// Import only what you need from Bulma
+@import "../../node_modules/bulma/sass/utilities/_all.sass";
+@import "../../node_modules/bulma/sass/base/_all.sass";
+@import "../../node_modules/bulma/sass/elements/_all.sass";
+@import "../../node_modules/bulma/sass/form/_all.sass";
+@import "../../node_modules/bulma/sass/grid/_all.sass";
+@import "../../node_modules/bulma/sass/components/_all.sass";
+@import "../../node_modules/bulma/sass/layout/_all.sass";
+
+html {
+  overflow-y: auto;
+}
+
+$color-brewer-yellow: #ffeda0;
+$color-brewer-orange: #feb24c;
+$color-brewer-orange-darker: #d95f0e;
+$color-brewer-red: #f03b20;
+$circlemarker-width-height: 16px;
+$circlemarker-border-radius: 50%;
+$circlemarker-opacity: 1;
+
+.section.section-breadcrumb-top {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.section.is-containing-datatable {
+  padding-top: 0;
+  padding-bottom: 10px;
+}
+
+.container.has-background-light.is-padding-5 {
+  padding: 0.5rem;
+}
+
+.modal-card-foot.custom-familyinfo-modal-footer, 
+.modal-card-foot.custom-individualinfo-modal-footer {
+  justify-content: flex-end;
+}
+
+.modal-card-foot.custom-familyselector-modal-footer {
+  justify-content: space-between;
+}
+
+.pointmarker-grey {
+  width: $circlemarker-width-height;
+  height: $circlemarker-width-height;
+  border-radius: $circlemarker-border-radius;
+  background: #636363;
+  border: 1px solid #000000;
+  opacity: $circlemarker-opacity
+}
+.pointmarker-red {
+  width: $circlemarker-width-height;
+  height: $circlemarker-width-height;
+  border-radius: $circlemarker-border-radius;
+  background: #FF0000;
+  border: 1px solid #000000;
+  opacity: $circlemarker-opacity
+}
+.pointmarker-orange {
+  width: $circlemarker-width-height;
+  height: $circlemarker-width-height;
+  border-radius: $circlemarker-border-radius;
+  background: #F03B20;
+  border: 1px solid #000000;
+  opacity: $circlemarker-opacity
+}
+.pointmarker-yellow {
+  width: $circlemarker-width-height;
+  height: $circlemarker-width-height;
+  border-radius: $circlemarker-border-radius;
+  background: #FEB24C;
+  border: 1px solid #000000;
+  opacity: $circlemarker-opacity
+}
+.pointmarker-green {
+  width: $circlemarker-width-height;
+  height: $circlemarker-width-height;
+  border-radius: $circlemarker-border-radius;
+  background: #31A354;
+  border: 1px solid #000000;
+  opacity: $circlemarker-opacity
+}
+.pointmarker-blue {
+  width: $circlemarker-width-height;
+  height: $circlemarker-width-height;
+  border-radius: $circlemarker-border-radius;
+  background: #2C7FB8;
+  border: 1px solid #000;
+  opacity: $circlemarker-opacity
+}
+.pointmarker-pink {
+  width: $circlemarker-width-height;
+  height: $circlemarker-width-height;
+  border-radius: $circlemarker-border-radius;
+  background: #DD1C77;
+  border: 1px solid #000;
+  opacity: $circlemarker-opacity
+}
+.pointmarker-purple {
+  width: $circlemarker-width-height;
+  height: $circlemarker-width-height;
+  border-radius: $circlemarker-border-radius;
+  background: #756BB1;
+  border: 1px solid #000;
+  opacity: $circlemarker-opacity
+}
+
+#map.map-container {
+  height: calc(100vh - 52px);
+  z-index: 29;
+}
+
+.custom-text {
+  font-size: 11px;
+}
+
+.custom-navbar-brand {
+  font: 18px/20px Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.login-hr {
+  border-bottom: 1px solid black;
+}
+
+.avatar img {
+  padding: 5px;
+  background: #fff;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+  box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+}
+
+.info {
+  padding: 6px 8px;
+  font: 14px/16px Arial, Helvetica, sans-serif;
+  background: white;
+  background: rgba(255,255,255,1);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 2px;
+}
+
+.info h4 {
+  margin: 0 0 5px;
+  color: #777;
+}
+
+.legend {
+  line-height: 20px;
+  color: #171717;
+}
+
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 1;
+  border: 1px solid #333;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 0px !important;
+}
+
+.leaflet-popup-content {
+  margin: 10px 10px !important;
+}
+
+.leaflet-marker-icon.pointmarker-grey.leaflet-zoom-animated.leaflet-interactive, 
+.leaflet-marker-icon.pointmarker-red.leaflet-zoom-animated.leaflet-interactive, 
+.leaflet-marker-icon.pointmarker-yellow.leaflet-zoom-animated.leaflet-interactive, 
+.leaflet-marker-icon.pointmarker-orange.leaflet-zoom-animated.leaflet-interactive, 
+.leaflet-marker-icon.pointmarker-green.leaflet-zoom-animated.leaflet-interactive, 
+.leaflet-marker-icon.pointmarker-blue.leaflet-zoom-animated.leaflet-interactive, 
+.leaflet-marker-icon.pointmarker-pink.leaflet-zoom-animated.leaflet-interactive, 
+.leaflet-marker-icon.pointmarker-purple.leaflet-zoom-animated.leaflet-interactive {
+  margin-left: -10px !important;
+  margin-top: -8px !important;
+  width: $circlemarker-width-height !important;
+  height: $circlemarker-width-height !important;
+}
+
+.lds-grid {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-grid div {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #FF0000;
+  animation: lds-grid 1.2s linear infinite;
+}
+.lds-grid div:nth-child(1) {
+  top: 8px;
+  left: 8px;
+  animation-delay: 0s;
+}
+.lds-grid div:nth-child(2) {
+  top: 8px;
+  left: 32px;
+  animation-delay: -0.4s;
+}
+.lds-grid div:nth-child(3) {
+  top: 8px;
+  left: 56px;
+  animation-delay: -0.8s;
+}
+.lds-grid div:nth-child(4) {
+  top: 32px;
+  left: 8px;
+  animation-delay: -0.4s;
+}
+.lds-grid div:nth-child(5) {
+  top: 32px;
+  left: 32px;
+  animation-delay: -0.8s;
+}
+.lds-grid div:nth-child(6) {
+  top: 32px;
+  left: 56px;
+  animation-delay: -1.2s;
+}
+.lds-grid div:nth-child(7) {
+  top: 56px;
+  left: 8px;
+  animation-delay: -0.8s;
+}
+.lds-grid div:nth-child(8) {
+  top: 56px;
+  left: 32px;
+  animation-delay: -1.2s;
+}
+.lds-grid div:nth-child(9) {
+  top: 56px;
+  left: 56px;
+  animation-delay: -1.6s;
+}
+@keyframes lds-grid {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.field.is-leaflet-control-fullwidth, 
+.control.is-leaflet-control-fullwidth, 
+.select.is-small.is-leaflet-control-fullwidth, 
+.district-selector-control-component.is-radiusless.is-leaflet-control-fullwidth, 
+.subdistrict-selector-control-component.is-radiusless.is-leaflet-control-fullwidth {
+  display: flex;
+  width: 100%;
+}
+
+.button.is-small.is-info.is-radiusless.is-leaflet-control-fullwidth-button {
+  display: flex;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px){
+  .button.has-background-dark.has-text-light.is-outlined.is-radiusless.is-fullwidth-mobile,
+  .button.is-dark.is-radiusless.is-fullwidth.is-fullwidth-mobile.button-sync-data {
+    display: flex;
+    width: 100%;
+  }
+  .custom-navbar-brand {
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+}

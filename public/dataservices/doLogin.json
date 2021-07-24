@@ -1,0 +1,23 @@
+{
+  "status":201,
+  "module":"",
+  "sessionid":"",
+  "idx":"",
+  "opdcode":"",
+  "bidangid":"",
+  "bidang":"",
+  "subbidangid":"",
+  "subbidang":"",
+  "posisi":"",
+  "spvidx":"",
+  "context":"",
+  "realname":"",
+  "initial":"",
+  "username":"",
+  "hashedpassword":"",
+  "add_module":"",
+  "verificator":"",
+  "collector":"",
+  "user_status":"",
+  "expires":""
+}
