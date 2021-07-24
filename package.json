@@ -1,0 +1,68 @@
+{
+  "name": "lpcr-frontend",
+  "version": "0.1.0",
+  "description": "LPCR Administrator Dashboard",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "dev": "npm-run-all --parallel start watch",
+    "start": "serve public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/Lutfiana1805/lpcr-frontend.git"
+  },
+  "keywords": [
+    "rollup",
+    "bulma"
+  ],
+  "author": "gitaasmara250@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/Lutfiana1805/lpcr-frontend/issues"
+  },
+  "homepage": "https://gitlab.com/Lutfiana1805/lpcr-frontend#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@rollup/plugin-babel": "^5.0.4",
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-json": "^4.0.0",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "autoprefixer": "^9.8.6",
+    "node-sass": "latest",
+    "npm-run-all": "^4.1.5",
+    "rollup": "^1.16.2",
+    "rollup-plugin-iife": "^0.3.1",
+    "rollup-plugin-javascript-obfuscator": "^1.0.4",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.4.0",
+    "rollup-plugin-postcss": "^3.1.8",
+    "rollup-plugin-terser": "^5.0.0",
+    "serve": "^11.0.2"
+  },
+  "dependencies": {
+    "bulma": "^0.8.0",
+    "bulma-steps": "^2.2.1",
+    "crypto-js": "latest",
+    "date-fns": "latest",
+    "file-saverjs": "latest",
+    "html2pdf.js": "latest",
+    "leaflet": "latest",
+    "leaflet-draw": "latest",
+    "leaflet-groupedlayercontrol": "latest",
+    "leaflet-pulse-icon": "^0.1.0",
+    "leaflet.control.layers.tree": "latest",
+    "leaflet.locatecontrol": "^0.72.0",
+    "leaflet.markercluster": "latest",
+    "numeral": "latest",
+    "pdfobject": "latest",
+    "simple-datatables": "latest",
+    "tableexport": "latest",
+    "terraformer": "latest",
+    "terraformer-wkt-parser": "latest",
+    "vega": "^5.8.0",
+    "vega-embed": "^6.0.0",
+    "vega-lite": "^4.0.0-beta.11"
+  }
+}
