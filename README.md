@@ -8,4 +8,4 @@ Secara keseluruhan Aplikasi LPCR Muhammadiyah ini terdiri dari tiga bagian, yait
 2. Frontend dashboard Administrator (repositori ini).
 3. Aplikasi mobile ( [lpcr_mobile](https://github.com/Dens02/lpcr_mobile) ), yang di kerjakan oleh sdr. [Denny Alfandy](https://github.com/Dens02).
 
-Adapun aplikasi ini bisa di akses ((https://kaderlpcrmuhammadiyah.com/)[Situs LPCR Muhammadiyah]).
+Adapun aplikasi ini bisa di akses [Situs LPCR Muhammadiyah](https://kaderlpcrmuhammadiyah.com/)
